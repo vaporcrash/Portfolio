@@ -1,0 +1,173 @@
+html{
+  scroll-behavior: smooth;
+}
+.App {
+  text-align: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Top-section {
+  background-color: #000000;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  font-size: calc(10px + 2vmin);
+  text-align: center;
+}
+
+p{
+  font-size: calc(10px + 2vmin);
+}
+
+img{
+  border-radius: 10%;
+  height: 65vh;
+  background-color: white;
+}
+.Landing-text {
+  animation: Welcome-fade-in 1.5s linear;
+  text-align: center;
+}
+
+.Mid-Section{
+  height: 92vh !important;
+}
+
+.Section{
+  height: 100vh !important;
+}
+
+.Black{
+  background-color: #000000;
+  color: white;
+}
+
+.Even{
+  background-color: gainsboro;
+}
+
+.Web3-text{
+  width: 37vw;
+}
+
+.about-me{
+  font-size: calc(10px + 3vmin);
+  
+}
+.landing-div{
+  
+  width: 40vw;
+}
+
+#BEEE-Side{
+  top: 30vh;
+  left: 8vh;
+  position: relative;
+  width: 20vw;
+}
+
+
+
+@keyframes Welcome-fade-in{
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+footer{
+  position: fixed;
+  left: 10vh;
+  top: 7vh;
+}
+
+.Project-title{
+  font-size: calc(10px + 5vmin);
+}
+
+a{
+  text-decoration: none;
+  color: purple;
+}
+
+a:hover{
+  animation: link-hover 0.2s linear;
+  color: #61dafb;
+}
+
+a:not(:hover){
+  animation: link-off 0.2s linear;
+}
+
+@keyframes link-hover {
+  from{
+    color:purple;
+  }
+  to {
+    color: #61dafb;
+  }
+}
+
+@keyframes link-off {
+  from{
+    color: #61dafb;
+  }
+  to{
+    color: purple;
+  }
+  
+}
+
+a.jumps{
+  text-decoration: none;
+  color: white;
+}
+
+a.jumps:hover{
+  animation: jump-hover 0.2s linear;
+  color: purple;
+}
+
+a.jumps:not(:hover){
+  animation: jump-off 0.2s linear;
+}
+
+@keyframes jump-hover {
+  from{
+    color:white;
+  }
+  to {
+    color: purple;
+  }
+}
+
+@keyframes jump-off {
+  from{
+    color: purple;
+  }
+  to{
+    color: white;
+  }  
+}
+
+.Skills-title{
+  font-size: calc(10px + 2vmin);
+  font-weight: bold;
+  text-align: center;
+}
+
+#SkillPageTitle{
+  font-size: calc(10px + 5vmin);
+}
+.Skills{
+  text-align: center;
+}
+
