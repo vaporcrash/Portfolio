@@ -12,6 +12,7 @@ function SectionThree(){
             <div className='Web3-text'>
             <p className='Skills-title'>Certifications</p>
             <p>AWS Certified Solutions Architect - Associate</p>
+            <p>Google Cloud Certified Associate Cloud Engineer</p>
             </div>
         </Animator>
         <Animator animation={batch(MoveIn(700,0),Fade(0,1),Sticky(65,35))}>
