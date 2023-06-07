@@ -7,7 +7,6 @@ function About(){
             <div className='landing-div'>
                 <p className='Project-title'>Sharvan Ram Kumaran</p>
             </div>
-            
         </Animator>
         <Animator animation={batch(MoveIn(700,0),Fade(0,1),Sticky(70,50))}>
         <div className='landing-div'>
