@@ -36,7 +36,7 @@ img{
 }
 
 .Mid-Section{
-  height: 96vh !important;
+  height: 105vh !important;
 }
 
 .Section{
@@ -54,6 +54,7 @@ img{
 
 .Web3-text{
   width: 37vw;
+  text-align: center;
 }
 
 .about-me{
