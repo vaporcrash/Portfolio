@@ -17,7 +17,7 @@ function About(){
         </div>
         </Animator>
         <Animator animation={batch(MoveIn(0,700),Fade(0,1),Sticky(50,80))}>
-      <p className='Landing-text'><a className='jumps' href='https://drive.google.com/file/d/1lRUKnSCm3D01jIfp-WJsNT8nKGpwYQrH/view?usp=sharing' target='_blank' rel="noreferrer">Click here to see my resume!</a></p>
+      <p className='Landing-text'><a className='jumps' href='https://drive.google.com/file/d/1pcIKLGIqlPMCAhOQ1UDja0kqr1q6EHQF/view?usp=sharing' target='_blank' rel="noreferrer">Click here to see my resume!</a></p>
       <p className='Landing-text'>Keep Scrolling!</p>
     </Animator>
     </ScrollPage>
