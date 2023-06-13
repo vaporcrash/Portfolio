@@ -17,7 +17,7 @@ Ethereum Blockchain</p>
             <p><SocialIcon url='https://github.com/AvinashKartik/Health-Insurance-Using-Canisters' target='_blank' bgColor='white'/> <a className='jumps' href='https://github.com/AvinashKartik/Health-Insurance-Using-Canisters' target='_blank' rel="noreferrer">- Link to repository</a></p>
             </div>
         </Animator>
-        <Animator animation={batch(MoveIn(1500,0),Fade(0,1),Sticky(70,20))} >
+        <Animator animation={batch(MoveIn(1500,0),Fade(0,1),Sticky(70,25))} >
             
             <div className='Web3-text'>
                 <p className='Project-title'>Yoyo Hotels</p>
@@ -27,7 +27,7 @@ hotels</p>
                 <p><SocialIcon url='https://github.com/vaporcrash/Yoyo' target='_blank' bgColor='white'/> <a className='jumps' href='https://github.com/vaporcrash/Yoyo' target='_blank' rel="noreferrer">- Link to repository</a></p>
             </div>
         </Animator>
-        <Animator animation={batch(MoveIn(1500,0),Fade(0,1),Sticky(70,70))}>
+        <Animator animation={batch(MoveIn(1500,0),Fade(0,1),Sticky(70,75))}>
             <div className='Web3-text'>
                 <p className='Project-title'>Faux-La</p>
                 <p>- Simplified version of Ola, popular ridesharing application, coded in Java, implemented with Inheritance and Polymorphism</p>
