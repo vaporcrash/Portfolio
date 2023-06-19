@@ -24,7 +24,7 @@ function SectionThree(){
         <Animator animation={batch(MoveIn(700,0),Fade(0,1),Sticky(70,60))}>
             <div className='Web3-text'>
             <p className='Skills-title'>Tools</p>
-            <p className='Skills'>Unity | Android Studio | Git | PyCharm | Mongo Compass | Atlassian Suite</p>
+            <p className='Skills'>Unity | Android Studio | Git | PyCharm | Mongo Compass | Atlassian Suite | Docker | Docker Swarm</p>
             </div>
         </Animator>
         <Animator animation={batch(MoveIn(-700,0),Fade(0,1),Sticky(30,75))}>
