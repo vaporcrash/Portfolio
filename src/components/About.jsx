@@ -15,7 +15,7 @@ function About(){
         <p>Most Used Language: Python</p>
         <p>Favorite Framework: Flutter</p>
         <p>Languages known: English, Tamil</p>
-        <p>Hobbies: Developing and playing video games, perfoming arts, Anime, Pokémon</p>
+        <p>Hobbies: Developing and playing video games, Badminton, Perfoming arts, Anime, Pokémon</p>
         </div>
         </Animator>
         <Animator animation={batch(MoveIn(0,700),Fade(0,1),Sticky(50,80))}>
